@@ -1,0 +1,114 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url(images/aside.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-container{
+
+    width: 16%;
+    margin: 10px;
+    padding-bottom: 10px;
+    border: black solid 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    overflow: auto;
+    transition: transform .2s;
+}
+
+.card-container-tradicional{
+    background: rgb(223,231,29);
+    background: radial-gradient(circle, rgba(223,231,29,1) 0%, rgba(249,154,0,1) 100%);
+}
+
+.card-container-melomiel{
+    background: rgb(231,29,213);
+    background: radial-gradient(circle, rgba(231,29,213,1) 0%, rgba(249,154,0,1) 100%);
+}
+
+.card-container-metheglin{
+    background: rgb(91,231,29);
+    background: radial-gradient(circle, rgba(91,231,29,1) 0%, rgba(249,154,0,1) 100%);
+}
+
+.card-container-braggot{
+    background: rgb(29,223,231);
+    background: radial-gradient(circle, rgba(29,223,231,1) 0%, rgba(249,154,0,1) 100%);
+}
+
+.card-container-bochet{
+    background: rgb(113,80,43);
+    background: radial-gradient(circle, rgba(113,80,43,1) 0%, rgba(249,154,0,1) 100%);
+}
+
+.card-container:hover{
+    transform: scale(1.05);
+}
+
+img.card-image{
+    width: 60%;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.card-title{
+    width: 100%;
+    margin: 0;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    -webkit-text-stroke: 0.7px white;
+    font-weight: 100;
+    font-family: fantasy;
+}
+
+.card-tradicional {
+    background-image: url(images/fondos/panal-miel.webp);
+}
+
+
+.card-melomiel {
+    background-image: url(images/fondos/red-fruits.jpg);
+}
+
+
+.card-bochet {
+    background-image: url(images/fondos/caramel.jpg);
+}
+
+
+.card-braggot {
+    background-image: url(images/fondos/cebada.jpg);
+}
+
+
+.card-metheglin {
+    background-image: url(images/fondos/green.jpg);
+}
+
+.card-button{
+    width: 50%;
+    font-size: 24px;
+    background-color: #d7bb25;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 6px;
+    color: black;
+    -webkit-text-stroke: 0.7px white;
+    font-weight: 100;
+    font-family: fantasy;
+
+}
+
+.card-botonera{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
